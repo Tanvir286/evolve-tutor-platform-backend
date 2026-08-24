@@ -2,16 +2,8 @@
 
 A comprehensive, scalable multi-role Learning Management System engineered to facilitate seamless online education. The platform empowers tutors to create structured subjects, schedule live Zoom sessions, and share learning materials, while students can enroll, attend live classes, and manage schedules. Complete with a robust Admin panel for revenue commissions, user moderation, and dispute management.
 
-## 📸 Screenshots
-
-| Home | Tutor Dashboard | Student Portal | Admin Panel |
-|:---:|:---:|:---:|:---:|
-| ![Home Screenshot](./public/home.png) | ![Home Screenshot](./public/tutor.png) | ![Home Screenshot](./public/student.png) | ![Home Screenshot](./public/admin.png) |
-
 🔗 **Live Demo:** [live-link](https://www.evolvetutoring.ai)  
-
 ---
-
 ## 🌟 Role-Based Features
 
 ### 👨‍🏫 Tutor Features
