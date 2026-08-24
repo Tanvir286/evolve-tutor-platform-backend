@@ -118,4 +118,7 @@ For docker:
 docker compose up
 ```
 ## Api documentation
+```
 Swagger: http://{domain_name}/api/docs
+```
+
