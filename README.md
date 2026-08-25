@@ -2,7 +2,10 @@
 
 A comprehensive, scalable multi-role Learning Management System engineered to facilitate seamless online education. The platform empowers tutors to create structured subjects, schedule live Zoom sessions, and share learning materials, while students can enroll, attend live classes, and manage schedules. Complete with a robust Admin panel for revenue commissions, user moderation, and dispute management.
 
-🔗 **Live Demo:** [live-link](https://www.evolvetutoring.ai)  
+## 🔗 Live Application & Dashboard
+
+* 🌐 **Live Website:** [Evolve Tutoring](https://www.evolvetutoring.ai)
+
 ---
 ## 🌟 Role-Based Features
 
@@ -54,30 +57,16 @@ A comprehensive, scalable multi-role Learning Management System engineered to fa
 ---
 ---
 
-## Config
 
-Stripe webhook:
-
+## Clone the repository
 ```
-http://{domain_name}/api/payment/stripe/webhook
-```
-
-for development run stripe cli:
-
-```
-stripe listen --forward-to localhost:4000/api/payment/stripe/webhook
-```
-
-trigger a event for testing:
-
-```
-stripe trigger payment_intent.succeeded
+git clone https://github.com/Tanvir286/evolve-tutor-platform-backend
+cd video-editing-marketplace-frontend
 ```
 
 ## Installation
 
-Install all dependencies
-
+**Install all dependencies**
 ```
 yarn install
 ```
@@ -86,16 +75,31 @@ yarn install
 
 Copy .env.example to .env and config according to your needs.
 
-Migrate database:
-
+**Migrate database:**
 ```bash
 npx prisma migrate dev
 ```
-
-Seed dummy data to database
+**Seed dummy data to database**
 
 ```
 yarn cmd seed
+```
+
+## Config
+
+**Stripe webhook:**
+```
+http://{domain_name}/api/payment/stripe/webhook
+```
+
+**for development run stripe cli:**
+```
+stripe listen --forward-to localhost:4000/api/payment/stripe/webhook
+```
+
+**trigger a event for testing:**
+```
+stripe trigger payment_intent.succeeded
 ```
 
 ## Running:
